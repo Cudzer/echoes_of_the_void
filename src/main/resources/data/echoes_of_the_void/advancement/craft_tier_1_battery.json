@@ -1,0 +1,30 @@
+{
+  "parent": "echoes_of_the_void:resonance_table",
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:resonant_battery_tier_1"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.craft_battery_1.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.craft_battery_1.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_battery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "echoes_of_the_void:resonant_battery_tier_1"
+          }
+        ]
+      }
+    }
+  }
+}

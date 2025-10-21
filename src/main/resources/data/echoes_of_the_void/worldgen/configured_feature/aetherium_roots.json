@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "echoes_of_the_void:aetherium_roots",
+    "search_range": 10,
+    "can_place_on_floor": false,
+    "can_place_on_ceiling": true,
+    "can_place_on_wall": false,
+    "chance_of_spreading": 0.5,
+    "can_be_placed_on": [
+      "echoes_of_the_void:vesperan_stone"
+    ]
+  }
+}

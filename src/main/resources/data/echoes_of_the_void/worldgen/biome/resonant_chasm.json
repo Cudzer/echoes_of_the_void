@@ -1,0 +1,73 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 8103167,
+    "fog_color": 4136082,
+    "water_color": 15398822,
+    "water_fog_color": 12503681,
+    "music": {
+      "sound": "minecraft:music.overworld.deep_dark",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.015
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "echoes_of_the_void:vesperan_diamond_ore_placed",
+      "echoes_of_the_void:aetherium_ore_placed"
+    ],
+    [
+      "echoes_of_the_void:celenite_block_patch_placed",
+      "echoes_of_the_void:celenite_cluster_patch_placed"
+    ],
+    [
+      "echoes_of_the_void:celenite_stalactite_cluster_placed",
+      "echoes_of_the_void:celenite_stalagmite_cluster_placed"
+    ],
+    []
+  ]
+}

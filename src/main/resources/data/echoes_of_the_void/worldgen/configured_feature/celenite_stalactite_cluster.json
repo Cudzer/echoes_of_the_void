@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 24,
+    "xz_spread": 2,
+    "y_spread": 0,
+    "feature": "echoes_of_the_void:celenite_stalactite_placed"
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "name": "Stellar Resonators",
+  "category": "echoes_of_the_void:architect_tech",
+  "icon": "echoes_of_the_void:stellar_glyph_r",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "asdasd"
+    }
+
+  ]
+}

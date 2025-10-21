@@ -1,0 +1,22 @@
+{
+  "name": "Resonant Batteries",
+  "category": "echoes_of_the_void:architect_tech",
+  "icon": "echoes_of_the_void:resonant_battery_tier_1",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:resonant_battery_tier_1",
+      "text": "The true heart of the Echoway. This device is an intricate energy cell and targeting computer. It requires a significant charge of Redstone Flux (RF) to operate. It can be charged in any standard energy-providing machine."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:resonant_battery_tier_2",
+      "text": "An upgrade to the base battery. It holds more RF charge than the basic battery"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Function",
+      "text": "When placed in a Stellar Dial Pedestal, the battery provides the necessary power to activate an Echoway. The energy is consumed only during the dialing sequence. The tooltip will display its current charge level when you hold 'Shift'."
+    }
+  ]
+}

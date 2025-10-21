@@ -1,0 +1,26 @@
+{
+  "name": "Resonance Crafting",
+  "category": "echoes_of_the_void:architect_tech",
+  "advancement": "echoes_of_the_void:resonance_table",
+  "icon": "echoes_of_the_void:infused_amethyst_crystal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Resonance Table works by bombarding a resonant crystal with a catalyst, infusing it with new properties. The process is slow and requires a stable power source."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Infused Amethyst",
+      "images": [ "echoes_of_the_void:textures/gui/patchouli/infused_amethyst_recipe.png" ],
+      "border": true,
+      "text": "An Amethyst Shard is infused with the energy of Redstone to create a stable, programmable crystal."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Infused Celenite",
+      "images": [ "echoes_of_the_void:textures/gui/patchouli/infused_celenite_recipe.png" ],
+      "border": true,
+      "text": "A Celenite Crystal is infused with the energy of Redstone to create a highly performant, programmable crystal."
+    }
+  ]
+}

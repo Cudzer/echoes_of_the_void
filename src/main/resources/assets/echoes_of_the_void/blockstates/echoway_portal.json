@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "echoes_of_the_void:block/echoway_portal",
+      "y": 90
+    },
+    "axis=z": {
+      "model": "echoes_of_the_void:block/echoway_portal"
+    }
+  }
+}

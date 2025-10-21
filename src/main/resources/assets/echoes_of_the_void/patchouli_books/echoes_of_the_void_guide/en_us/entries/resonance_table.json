@@ -1,0 +1,17 @@
+{
+  "name": "The Resonance Table",
+  "category": "echoes_of_the_void:architect_tech",
+  "icon": "echoes_of_the_void:resonance_table",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:resonance_table",
+      "text": "The Resonance Table seems to function as a specialized infusion device. By inputting a resonant crystal and a catalyst, it can create entirely new materials."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Operation",
+      "text": "The table requires two inputs: a primary crystal in the top slot and a catalyst material in the bottom slot. When a valid recipe is detected, the table will begin its infusion process, slowly converting the materials into a new output. The process is entirely self-powered, drawing on ambient resonant energy."
+    }
+  ]
+}

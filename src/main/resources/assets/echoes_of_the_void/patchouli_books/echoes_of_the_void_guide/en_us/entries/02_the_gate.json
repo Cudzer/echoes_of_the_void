@@ -1,0 +1,119 @@
+{
+  "name": "The Architect's Portals",
+  "category": "echoes_of_the_void:getting_started",
+  "advancement": "echoes_of_the_void:get_architect_stone",
+  "icon": "echoes_of_the_void:stellar_dial_pedestal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Great Work",
+      "text": "The pinnacle of Architect technology. The Echoway is not a portal in the magical sense; it is a machine that generates a stable wormhole through spacetime, connecting to another Echoway with a matching resonant frequency, or 'Address'."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:architect_stone_brick",
+      "text": "$(o)Architect Stone$() seems to be a hyper-dense composite material, infused with a sort of memory storage that comes from the infused amethyst crystal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:runic_casing",
+      "text": "$(o)Runic Casings$() act as the receptors of the Echoway, displaying the symbols of a dialed or assigned address. They are made from Architect Stone reinforced with a metallic alloy."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "echoes_of_the_void:stellar_dial_pedestal",
+      "text": "The $(o)Stellar Dial Pedestal$() is the control console and power interface for the entire structure. It channels energy from a Stellar Dial into the Echoway frame during activation."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "The Echoway",
+      "multiblock": {
+        "mapping": {
+          "S": "echoes_of_the_void:architect_stone_brick",
+          "R": "echoes_of_the_void:runic_casing[facing=east]",
+          "P": "echoes_of_the_void:stellar_dial_pedestal[facing=east]",
+          " ": "air"
+        },
+        "pattern": [
+          [
+            " SRS ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "R   R",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "S   S",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "R   R",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "  0  "
+          ],
+          [
+            " SSS ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "  P  "
+          ]
+        ]
+      },
+      "text": "The Echoway must be constructed in this exact shape, with the Pedestal placed 8 blocks in front of the ring."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dialing Procedure",
+      "text": "To activate an established Echoway, you must first place a charged $(l:resonant_battery)Resonant Battery$() into its designated slot in the GUI.$(br2)Then, insert the 5 resonator address of your destination into the dialing slots and press 'Engage'. The Echoway will consume a significant amount of RF from the dial and attempt to establish a connection for 15 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "First Activation",
+      "text": "The first time a newly built Echoway is successfully validated (by right-clicking the pedestal), the system will automatically assign it a permanent, random 5-glyph address. This address will be displayed in the GUI from then on."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Getting lost in another dimension is a serious risk. Thankfully, the Architects seem to have built a failsafe into the system.$(br2)Any new Echoway that is automatically generated when you first travel to another world will come pre-configured. It will contain a fully charged Stellar Dial, and its dialing slots will be pre-filled with the universal address to return to the Overworld."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "echoes_of_the_void:resonant_battery_tier_1",
+      "title": "Overworld Address",
+      "text": "The address to return to the Overworld is a predefined, static sequence. Keep a record of it, as it will always be your way home."
+    }
+  ]
+}
+

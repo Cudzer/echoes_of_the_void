@@ -1,0 +1,33 @@
+{
+  "name": "echoes_of_the_void:floating_island",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "echoes_of_the_void:aetherium_spires_floating_island_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "echoes_of_the_void:aetherium_spires_floating_island_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "echoes_of_the_void:aetherium_spires_floating_island_3",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

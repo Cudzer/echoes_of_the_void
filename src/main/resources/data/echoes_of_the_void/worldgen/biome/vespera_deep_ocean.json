@@ -1,0 +1,42 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 3025023,
+    "fog_color": 2235230,
+    "water_color": 12503681,
+    "water_fog_color": 10989938,
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "water_creature": [
+      {
+        "type": "minecraft:cod",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 10
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [ "minecraft:cave", "minecraft:canyon" ]
+  },
+  "features": [
+    [], [], [], [], [], [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_clay"
+    ],
+    [], [],
+    [
+      "minecraft:seagrass_deep"
+    ]
+  ]
+}

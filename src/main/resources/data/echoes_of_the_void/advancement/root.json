@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:celenite_crystal"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.root.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "get_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

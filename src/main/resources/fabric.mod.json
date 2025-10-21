@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "echoes_of_the_void",
+  "version": "${version}",
+  "name": "Echoes of the Void",
+  "description": "A mod of discovery and usage of ancient technology",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/echoes_of_the_void/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.cudzdev.echoes_of_the_void.MainDataGenerator"
+    ],
+    "client": [
+      "com.cudzdev.echoes_of_the_void.MainClient"
+    ],
+    "main": [
+      "com.cudzdev.echoes_of_the_void.Main"
+    ],
+    "rei_client": [
+      "com.cudzdev.echoes_of_the_void.compat.rei.EchoesOfTheVoidModREIClient"
+    ]
+  },
+  "mixins": [
+    "echoes_of_the_void.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "patchouli": ">=1.21-119",
+    "team_reborn_energy": ">=3.0.0-beta2"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 10,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 8,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 2, "max": 8 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 10,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 3, "max": 10 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 5 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "echoes_of_the_void:aetherium_crystal",
+          "weight": 7,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } } ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "echoes_of_the_void:stellar_glyph_r", "weight": 1 },
+        { "type": "minecraft:item", "name": "echoes_of_the_void:stellar_glyph_8", "weight": 1 },
+        { "type": "minecraft:item", "name": "echoes_of_the_void:stellar_glyph_o", "weight": 1 },
+        { "type": "minecraft:item", "name": "echoes_of_the_void:stellar_glyph_w", "weight": 1 },
+        { "type": "minecraft:item", "name": "echoes_of_the_void:stellar_glyph_slash", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "echoes_of_the_void:celenite_crystal",
+          "weight": 8,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 10,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 2, "max": 10 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 8,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } } ]
+        }
+      ]
+    }
+  ]
+}

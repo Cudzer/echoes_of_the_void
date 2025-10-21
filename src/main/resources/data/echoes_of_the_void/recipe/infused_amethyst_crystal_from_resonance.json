@@ -1,0 +1,12 @@
+{
+  "type": "echoes_of_the_void:resonance",
+  "crystalIngredient": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "redstoneIngredient": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "echoes_of_the_void:infused_amethyst_crystal"
+  }
+}

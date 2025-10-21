@@ -1,0 +1,117 @@
+{
+  "temperature": 0.6,
+  "downfall": 0.9,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 3022941,
+    "fog_color": 2563175,
+    "water_color": 16121794,
+    "water_fog_color": 14805683,
+    "grass_color": 4627142,
+    "foliage_color": 3022941,
+    "music": {
+      "sound": "minecraft:music.overworld.swamp",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:cow",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [ "minecraft:cave", "minecraft:canyon" ]
+  },
+  "features": [
+    [],
+    [
+
+    ],
+    [
+      "echoes_of_the_void:celenite_geode_placed"
+    ], [], [],
+    [
+
+    ],
+    [
+      "echoes_of_the_void:vesperan_iron_ore_placed",
+      "echoes_of_the_void:vesperan_coal_ore_placed",
+      "echoes_of_the_void:vesperan_copper_ore_placed",
+      "echoes_of_the_void:vesperan_gold_ore_placed",
+      "echoes_of_the_void:vesperan_lapis_ore_placed",
+      "echoes_of_the_void:vesperan_redstone_ore_placed",
+      "echoes_of_the_void:vesperan_emerald_ore_placed",
+      "echoes_of_the_void:vesperan_diamond_ore_placed",
+      "echoes_of_the_void:aetherium_ore_placed",
+      "echoes_of_the_void:vesperan_granite_placed",
+      "echoes_of_the_void:vesperan_andesite_placed",
+      "echoes_of_the_void:vesperan_diorite_placed"
+    ],
+    [
+      "echoes_of_the_void:aetherium_roots_placed",
+      "echoes_of_the_void:caveshroom_patch_placed"
+    ],
+    [
+      "minecraft:spring_water",
+      "echoes_of_the_void:starwillow_placed",
+      "echoes_of_the_void:huge_blue_caveshroom_placed",
+      "echoes_of_the_void:huge_green_caveshroom_placed",
+      "echoes_of_the_void:huge_pink_caveshroom_placed",
+      "echoes_of_the_void:fen_bush_placed",
+      "minecraft:patch_grass_plain"
+    ],
+    []
+  ]
+}

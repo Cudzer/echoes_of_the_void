@@ -1,0 +1,23 @@
+{
+  "parent": "echoes_of_the_void:get_architect_stone",
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:stellar_dial_pedestal"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.open_stellar_dial.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.open_stellar_dial.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

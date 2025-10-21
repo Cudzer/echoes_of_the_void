@@ -1,0 +1,32 @@
+{
+  "name": "Welcome",
+  "category": "echoes_of_the_void:getting_started",
+  "icon": "minecraft:writable_book",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Echoes of the Void is an exploration and technology mod for Minecraft, centered around building and using an interstellar portal network."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mod's progression begins when you acquire Amethyst Shards, and you set out to create the technology needed to build the portal network. Furthermore the Overworld is littered with Resonators that make up the address system of the Echoway."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Core features include:$(br2)$(li)A player-built portal structure (the Echoway) that can be activated with a Stellar Dial.$(li)A unique address system where each Echoway is automatically assigned a random 5-glyph address upon its first use.$(li)The ability to dial the address of any other Echoway in the network to travel instantly between them, both within the same dimension (like the Overworld) and across dimensions."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mod adds a new dimension called Vespera, a world of perpetual twilight with a unique, bioluminescent ecosystem. Vespera includes:$(br2)$(li)Multiple new surface and underground biomes (forests, meadows, mountains, and caves).$(li)A variety of custom flora, including new tree types (Glimmerwood, Starwillow), glowing mushrooms, and other plants.$(li)New geological features like Celenite geodes, rocks, and pillars.$(li)Unique food sources like the farmable Glimmer-Melon and the consumable Aetherium Gel.$(li)Vespera-specific versions of all vanilla ores."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mod also introduces a new technology tier:$(br2)$(li)The \"Resonance Table,\" a custom machine with its own GUI for crafting advanced components.$(li)A power system centered around the \"Stellar Dial,\" an item that holds a charge of Redstone Flux (RF) and is consumed when activating an Echoway. The item features a visual energy bar and a detailed tooltip."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To guide the player, the mod includes custom structures that generate in the world containing loot (such as resonators), a Patchouli-based guidebook with recipes and explanations, and a full advancement tree."
+    }
+  ]
+}
+

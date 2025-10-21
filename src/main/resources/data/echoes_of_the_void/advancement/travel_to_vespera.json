@@ -1,0 +1,26 @@
+{
+  "parent": "echoes_of_the_void:activate_stellar_pedestal",
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:glimmerwood_log"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.travel_to_vespera.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.travel_to_vespera.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_vespera": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "echoes_of_the_void:vespera"
+      }
+    }
+  }
+}

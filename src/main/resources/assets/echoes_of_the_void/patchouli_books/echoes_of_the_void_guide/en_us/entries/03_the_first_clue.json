@@ -1,0 +1,16 @@
+{
+  "name": "A Brief Vision",
+  "category": "echoes_of_the_void:getting_started",
+  "advancement": "echoes_of_the_void:root",
+  "icon": "minecraft:white_concrete",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When you picked up the amethyst shard, a flash appeared in your mind of a ruined laboratory, deep underground. You know you must seek it out."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "There is a structure that spawns below y=0 called The Laboratory. The Architects used it for their experimentation and storage of specimens. It is nothing but a ruin these days but there may be some useful things in there to this day."
+    }
+  ]
+}

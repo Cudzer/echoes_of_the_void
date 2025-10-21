@@ -1,0 +1,10 @@
+{
+  "name": "Echoes of the Void Guide",
+  "landing_text": "Echoes of the Void",
+  "version": 1,
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "model" : "echoes_of_the_void:guide_book",
+  "custom_book_item": "echoes_of_the_void:guide_book",
+  "creative_tab": "echoes_of_the_void:echoes_of_the_void_group",
+  "use_resource_pack": true
+}

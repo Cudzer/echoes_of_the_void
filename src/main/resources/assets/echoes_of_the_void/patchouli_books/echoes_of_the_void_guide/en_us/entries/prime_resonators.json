@@ -1,0 +1,12 @@
+{
+  "name": "Prime Resonators",
+  "category": "echoes_of_the_void:architect_tech",
+  "icon": "echoes_of_the_void:prime_glyph_badge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adasdasd"
+    }
+
+  ]
+}

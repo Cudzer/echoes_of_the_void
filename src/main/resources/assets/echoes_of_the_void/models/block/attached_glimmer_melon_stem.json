@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_fruit",
+  "textures": {
+    "stem": "echoes_of_the_void:block/glimmer_melon_stem",
+    "upperstem": "echoes_of_the_void:block/attached_glimmer_melon_stem"
+  }
+}

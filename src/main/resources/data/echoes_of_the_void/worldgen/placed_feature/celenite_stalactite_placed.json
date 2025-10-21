@@ -1,0 +1,9 @@
+{
+  "feature": "echoes_of_the_void:celenite_stalactite",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": { "type": "minecraft:solid", "offset": [ 0, 1, 0 ] }
+    }
+  ]
+}

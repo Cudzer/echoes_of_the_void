@@ -1,0 +1,12 @@
+{
+  "type": "echoes_of_the_void:resonance",
+  "crystalIngredient": {
+    "item": "echoes_of_the_void:celenite_crystal"
+  },
+  "redstoneIngredient": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "echoes_of_the_void:infused_celenite_crystal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "echoes_of_the_void:block/celenite_tube",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "echoes_of_the_void:block/celenite_tube",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "echoes_of_the_void:block/celenite_tube",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "echoes_of_the_void:block/celenite_tube",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "echoes_of_the_void:block/celenite_tube"
+    },
+    "facing=west": {
+      "model": "echoes_of_the_void:block/celenite_tube",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

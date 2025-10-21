@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth0",
+  "textures": {
+    "stem": "echoes_of_the_void:block/glimmer_melon_stem"
+  }
+}

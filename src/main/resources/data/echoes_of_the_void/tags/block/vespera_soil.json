@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "echoes_of_the_void:glow_moss",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol"
+  ]
+}
+

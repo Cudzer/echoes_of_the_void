@@ -1,0 +1,41 @@
+{
+  "parent": "echoes_of_the_void:root",
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:stellar_glyph_r"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.get_glyph.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.get_glyph.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_any_glyph": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoes_of_the_void:prime_glyph_i",
+              "echoes_of_the_void:prime_glyph_badge",
+              "echoes_of_the_void:prime_glyph_s",
+              "echoes_of_the_void:prime_glyph_t",
+              "echoes_of_the_void:prime_glyph_xx",
+              "echoes_of_the_void:stellar_glyph_8",
+              "echoes_of_the_void:stellar_glyph_o",
+              "echoes_of_the_void:stellar_glyph_r",
+              "echoes_of_the_void:stellar_glyph_slash",
+              "echoes_of_the_void:stellar_glyph_w"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

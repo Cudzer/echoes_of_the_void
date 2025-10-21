@@ -1,0 +1,30 @@
+{
+  "parent": "echoes_of_the_void:travel_to_vespera",
+  "display": {
+    "icon": {
+      "id": "echoes_of_the_void:aetherium_crystal"
+    },
+    "title": {
+      "translate": "advancements.echoes_of_the_void.get_aetherium_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.echoes_of_the_void.get_aetherium_crystal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_aetherium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "echoes_of_the_void:aetherium_crystal"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "block.resonance_table.processing": {
+    "subtitle": "subtitles.echoes_of_the_void.block.resonance_table.processing",
+    "sounds": [
+      "echoes_of_the_void:block/resonance_table_processing"
+    ]
+  },
+  "block.portal_activate": {
+    "subtitle": "subtitles.echoes_of_the_void.block.portal_activate",
+    "sounds": [
+      "echoes_of_the_void:block/portal_activate"
+    ]
+  }
+}

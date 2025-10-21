@@ -1,0 +1,18 @@
+{
+  "name": "Aetherium Gel",
+  "category": "echoes_of_the_void:vespera",
+  "advancement": "echoes_of_the_void:travel_to_vespera",
+  "icon": "echoes_of_the_void:bottled_aetherium_gel",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "echoes_of_the_void:bottled_aetherium_gel",
+      "text": "A strange, semi-sentient gelatinous substance that pools in Vespera's underground caves. It is not a traditional food source, but consuming it seems to temporarily attune my senses to the planet's resonant frequencies, causing me to glow."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Collection",
+      "text": "The gel is too viscous to be collected in a bucket. It must be carefully scooped into a $(l:https://minecraft.wiki/Glass_Bottle)Glass Bottle$() directly from the source pool. Doing so consumes the source block."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "echoes_of_the_void:vesperan_stone"
+        },
+        "state": {
+          "Name": "echoes_of_the_void:vesperan_copper_ore"
+        }
+      }
+    ]
+  }
+}

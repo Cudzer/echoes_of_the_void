@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "echoes_of_the_void:laboratory",
+  "size": 7,
+  "max_distance_from_center": 80,
+  "biomes": "#echoes_of_the_void:has_structure/laboratory",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -64
+    },
+    "max_inclusive": {
+      "absolute": 0
+    }
+  },
+  "use_expansion_hack": true,
+  "spawn_overrides": {}
+}

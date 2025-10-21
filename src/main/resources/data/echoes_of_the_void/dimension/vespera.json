@@ -1,0 +1,66 @@
+{
+  "type": "echoes_of_the_void:vespera",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "echoes_of_the_void:vespera",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "echoes_of_the_void:vespera_deep_ocean",
+          "parameters": { "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-1.0, -0.6], "erosion": [-1, 1], "weirdness": [-1, 1], "depth": [-1, 1], "offset": 0 }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_ocean",
+          "parameters": { "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-0.6, -0.4], "erosion": [-1, 1], "weirdness": [-1, 1], "depth": [-1, 1], "offset": 0 }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_beach",
+          "parameters": { "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-0.4, -0.35], "erosion": [-1, 1], "weirdness": [-1, 1], "depth": [-1, 1], "offset": 0 }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_aetherium_spires",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-1, 1], "erosion": [0.4, 1.0], "weirdness": [-1, 1],
+            "depth": [-1.0, 0.0], "offset": 0
+          }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_lucent_meadows",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-1, 1], "erosion": [-1.0, -0.4], "weirdness": [-1, 1],
+            "depth": [-1.0, 0.0], "offset": 0
+          }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_glowcap_fen",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [0.6, 1.0], "continentalness": [-1, 1], "erosion": [-0.4, 0.4], "weirdness": [-1, 1],
+            "depth": [-1.0, 0.0], "offset": 0
+          }
+        },
+        {
+          "biome": "echoes_of_the_void:vespera_glimmerwood_forest",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [-1, 0.6], "continentalness": [-1, 1], "erosion": [-0.4, 0.4], "weirdness": [-1, 1],
+            "depth": [-1.0, 0.0], "offset": 0
+          }
+        },
+        {
+          "biome": "echoes_of_the_void:resonant_chasm",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-1, 1], "erosion": [-1, 1], "weirdness": [0.5, 1.0],
+            "depth": [0.1, 1.0], "offset": 0
+          }
+        },
+        {
+          "biome": "echoes_of_the_void:aetherium_caverns",
+          "parameters": {
+            "temperature": [-1, 1], "humidity": [-1, 1], "continentalness": [-1, 1], "erosion": [-1, 1], "weirdness": [-1, 0.5],
+            "depth": [0.1, 1.0], "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

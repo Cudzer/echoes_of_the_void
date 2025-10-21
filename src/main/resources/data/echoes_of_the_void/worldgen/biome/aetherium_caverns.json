@@ -1,0 +1,113 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 8103167,
+    "fog_color": 1315860,
+    "water_color": 15398822,
+    "water_fog_color": 12503681,
+    "grass_color": 1681785,
+    "foliage_color": 1681785,
+    "music": {
+      "sound": "minecraft:music.overworld.lush_caves",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "echoes_of_the_void:glimmer_moth",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 95,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 95,
+        "minCount": 2,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "echoes_of_the_void:celenite_geode_placed"
+    ],
+    [],
+    [],
+    [],
+    [
+      "echoes_of_the_void:vesperan_iron_ore_placed",
+      "echoes_of_the_void:vesperan_coal_ore_placed",
+      "echoes_of_the_void:vesperan_copper_ore_placed",
+      "echoes_of_the_void:vesperan_gold_ore_placed",
+      "echoes_of_the_void:vesperan_lapis_ore_placed",
+      "echoes_of_the_void:vesperan_redstone_ore_placed",
+      "echoes_of_the_void:vesperan_emerald_ore_placed",
+      "echoes_of_the_void:vesperan_diamond_ore_placed",
+      "echoes_of_the_void:aetherium_ore_placed",
+      "echoes_of_the_void:vesperan_granite_placed",
+      "echoes_of_the_void:vesperan_andesite_placed",
+      "echoes_of_the_void:vesperan_diorite_placed"
+    ],
+    [
+      "echoes_of_the_void:aetherium_caverns_ceiling_vegetation",
+      "echoes_of_the_void:aetherium_roots_placed",
+      "echoes_of_the_void:caveshroom_patch_placed",
+      "echoes_of_the_void:aetherium_gel_patch_placed"
+    ],
+    [
+      "echoes_of_the_void:aetherium_caverns_vegetation",
+      "minecraft:patch_grass_jungle",
+      "echoes_of_the_void:huge_blue_caveshroom_underground_placed",
+      "echoes_of_the_void:huge_green_caveshroom_underground_placed",
+      "echoes_of_the_void:huge_pink_caveshroom_underground_placed"
+    ],
+    [
+      "echoes_of_the_void:glow_moss_placed"
+    ]
+  ]
+}
