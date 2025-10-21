@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/echoes_of_the_void/icon.png",
+  "icon": "assets/echoes_of_the_void/textures/effect/symbol-i.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
