@@ -13,7 +13,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Core features include:$(br2)$(li)A player-built portal structure (the Echoway) that can be activated with a Stellar Dial.$(li)A unique address system where each Echoway is automatically assigned a random 5-glyph address upon its first use.$(li)The ability to dial the address of any other Echoway in the network to travel instantly between them, both within the same dimension (like the Overworld) and across dimensions."
+        "text": "Core features include:$(br2)$(li)A player-built portal structure (the Echoway) that can be activated with a Stellar Dial.$(li)A unique address system where each Echoway is automatically assigned a random 5-glyph address upon its first use.$(li)The ability to dial the address of any other Echoway in the network to travel instantly between them, both within the same dimension (like the Overworld) and currently to 1 other dimension called Vespera."
     },
     {
       "type": "patchouli:text",

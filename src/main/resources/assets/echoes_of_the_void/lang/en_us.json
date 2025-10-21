@@ -10,6 +10,8 @@
   "block.echoes_of_the_void.polished_architect_stone": "Polished Architect Stone",
   "block.echoes_of_the_void.glimmerwood_log": "Glimmerwood Log",
   "block.echoes_of_the_void.stripped_glimmerwood_log": "Stripped Glimmerwood Log",
+  "block.echoes_of_the_void.stripped_glimmerwood_wood": "Stripped Glimmerwood Wood",
+  "block.echoes_of_the_void.glimmerwood_wood": "Glimmerwood Wood",
   "block.echoes_of_the_void.glimmerwood_planks": "Glimmerwood Planks",
   "block.echoes_of_the_void.glimmerwood_leaves": "Glimmerwood Leaves",
   "block.echoes_of_the_void.glimmerwood_stairs": "Glimmerwood Stairs",
@@ -29,7 +31,9 @@
   "block.echoes_of_the_void.budding_celenite": "Budding Celenite",
 
   "block.echoes_of_the_void.starwillow_log": "Starwillow Log",
+  "block.echoes_of_the_void.starwillow_wood": "Starwillow Wood",
   "block.echoes_of_the_void.stripped_starwillow_log": "Stripped Starwillow Log",
+  "block.echoes_of_the_void.stripped_starwillow_wood": "Stripped Starwillow Wood",
   "block.echoes_of_the_void.starwillow_planks": "Starwillow Plank",
   "block.echoes_of_the_void.starwillow_leaves": "Starwillow Leaves",
   "block.echoes_of_the_void.starwillow_sapling": "Starwillow Sapling",

@@ -4,8 +4,13 @@
   "icon": "echoes_of_the_void:stellar_glyph_r",
   "pages": [
     {
+      "type": "patchouli:spotlight",
+      "item": "echoes_of_the_void:stellar_glyph_r",
+      "text": "Stellar Resonators are your way to travel between existing Echoways in a single dimension.$(br2) For example, Echoway 1 and Echoway 2 both exist in the Overworld. The Stellar Resonantors are used to dial the address of the corresponding Echoway and provide instant travel to that location."
+    },
+    {
       "type": "patchouli:text",
-      "text": "asdasd"
+      "text": "As it stands you cannot dial an address in another dimension using the Stellar Resonators. In the future this might be implemented."
     }
 
   ]

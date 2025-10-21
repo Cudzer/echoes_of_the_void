@@ -8,11 +8,6 @@
       "type": "patchouli:spotlight",
       "item": "echoes_of_the_void:glimmer_melon_slice",
       "text": "Vespera's most common food source. These glowing gourds grow in patches on the surface. The slices are refreshing and can be farmed by extracting their seeds."
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "echoes_of_the_void:glimmer_melon_seeds",
-      "text": "The seeds can be planted on any block found in the native Vesperan soil."
     }
   ]
 }

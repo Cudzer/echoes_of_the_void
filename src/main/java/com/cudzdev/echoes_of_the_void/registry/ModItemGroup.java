@@ -67,6 +67,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.ARCHITECT_STONE_WALL);
                         entries.add(ModBlocks.POLISHED_ARCHITECT_STONE);
                         entries.add(ModBlocks.GLIMMERWOOD_LOG);
+                        entries.add(ModBlocks.GLIMMERWOOD_WOOD);
+                        entries.add(ModBlocks.STRIPPED_GLIMMERWOOD_WOOD);
                         entries.add(ModBlocks.STRIPPED_GLIMMERWOOD_LOG);
                         entries.add(ModBlocks.GLIMMERWOOD_PLANKS);
                         entries.add(ModBlocks.GLIMMERWOOD_STAIRS);
@@ -83,8 +85,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.VESPERAN_COBBLESTONE);
                         entries.add(ModBlocks.VESPERAN_STONE_STAIRS);
                         entries.add(ModBlocks.VESPERAN_STONE_SLAB);
+                        entries.add(ModBlocks.VESPERAN_STONE_WALL);
                         entries.add(ModBlocks.VESPERAN_COBBLESTONE_SLAB);
                         entries.add(ModBlocks.VESPERAN_COBBLESTONE_STAIRS);
+                        entries.add(ModBlocks.VESPERAN_COBBLESTONE_WALL);
                         entries.add(ModBlocks.GLIMMER_MELON);
 
                         entries.add(ModBlocks.VESPERAN_IRON_ORE);
@@ -102,6 +106,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CELENITE_CLUSTER_BLOCK);
 
                         entries.add(ModBlocks.STARWILLOW_LOG);
+                        entries.add(ModBlocks.STARWILLOW_WOOD);
+                        entries.add(ModBlocks.STRIPPED_STARWILLOW_WOOD);
                         entries.add(ModBlocks.STRIPPED_STARWILLOW_LOG);
                         entries.add(ModBlocks.STARWILLOW_PLANKS);
                         entries.add(ModBlocks.STARWILLOW_LEAVES);

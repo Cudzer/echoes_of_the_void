@@ -4,8 +4,21 @@
   "icon": "echoes_of_the_void:prime_glyph_badge",
   "pages": [
     {
+      "type": "patchouli:spotlight",
+      "item": "echoes_of_the_void:prime_glyph_i",
+      "text": "Prime Resonators are your way to travel between dimensions. The addresses using these Resonators will always lead to another dimension and cannot be used to travel to the same dimension."
+    },
+    {
       "type": "patchouli:text",
-      "text": "adasdasd"
+      "text": "Using these Resonators in an Echoway will make it function similarly to Nether portals.$(br2)i.e. The Echoway will look for an existing Echoway in the dimension you are dialing and if none are found in the area, a new Echoway will be created at the corresponding coordinates in the target dimension"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Currently in the early stages of this mod, you can only travel between the Overworld and Vespera (the new dimension added by the mod). Trying to dial an address from the Nether or the End simply will not work."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you want to skip finding the address for Vespera here are the addresses for Overworld -> Vespera and Vespera -> Overworld$(br2)Overworld -> Vespera$(br) I S T I XX$(br2)Vespera -> Overworld$(br)XX S I T XX$(br2)You must have all the Resonators for these addresses to dial them. Every new Echoway generated from traveling from the Overworld to Vespera will automatically have the address for the Overworld in it's stellar dial pedestal."
     }
 
   ]
